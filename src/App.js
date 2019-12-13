@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const App = () => {
-  return <h1 title="This works!">Hello There</h1>;
+import Layout from './components/Layout/Layout';
+import FootballPlayerFinder from './containers/FootballPlayerFinder/FootballPlayerFinder';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Layout>
+          <FootballPlayerFinder />
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;

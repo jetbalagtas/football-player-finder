@@ -1,0 +1,8 @@
+.Root {
+  width: '100%';
+  overflow-x: 'auto';
+}
+
+.Table {
+  min-width: 650px;
+}

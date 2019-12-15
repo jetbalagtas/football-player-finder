@@ -25,14 +25,14 @@ export default function FootballPlayers(props) {
           </TableRow>
         </TableHead>
         <TableBody>
-          {players.map(row => (
-            <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
-                {row.name}
+          {players.map(player => (
+            <TableRow key={player.name}>
+              <TableCell component="th" scope="player">
+                {player.name}
               </TableCell>
-              <TableCell align="right">{row.position}</TableCell>
-              <TableCell align="right">{row.nationality}</TableCell>
-              <TableCell align="right">{row.jerseyNumber}</TableCell>
+              <TableCell align="right">{player.position}</TableCell>
+              <TableCell align="right">{player.nationality}</TableCell>
+              <TableCell align="right">{player.jerseyNumber}</TableCell>
             </TableRow>
           ))}
         </TableBody>

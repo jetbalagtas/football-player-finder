@@ -1,7 +1,7 @@
 import  React, { Component } from 'react';
 import axios from 'axios';
 
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Aux/Aux';
 import FootballPlayers from '../../components/FootballPlayers/FootballPlayers';
 
 class FootballPlayerFinder extends Component {

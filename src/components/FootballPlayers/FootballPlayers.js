@@ -10,7 +10,10 @@ import Paper from '@material-ui/core/Paper';
 import classes from './FootballPlayers.module.css';
 
 export default function FootballPlayers(props) {
+  console.log('footballplayers props: ', props);
+  
   const players = props.players;
+  console.log('PLAYAS: ', players);
 
   return (
     <Paper className={classes.Root}>
